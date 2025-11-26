@@ -17,6 +17,7 @@ export const PERSONAL_INFO = {
   roles: [
     "Digital Marketing Specialist",
     "Multimedia Specialist",
+    "Social Media Marketing Specialist",
     "Graphic Designer",
     "Photographer"
   ],
