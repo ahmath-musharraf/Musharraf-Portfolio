@@ -25,7 +25,7 @@ export const PERSONAL_INFO = {
   email: "ahmathmusharraf@gmail.com",
   phone: "+971 58146 2540",
   secondaryPhone: "+94 76 776 5080",
-  resume: "https://github.com/ahmath-musharraf/Musharraf-Portfolio/blob/4cfcf86b1cbfb140ebb9185895e9a8a7ab54e559/Musharraf_CV_UAE_New.pdf", // CHANGE THIS: Put your PDF in the public folder and update this name, or paste an external link
+  resume: "https://github.com/ahmath-musharraf/Musharraf-Portfolio/blob/main/Musharraf_CV_UAE_New.pdf", // CHANGE THIS: Put your PDF in the public folder and update this name, or paste an external link
   summary: "Creative and performance-driven Multimedia & Digital Marketing Specialist with over 5 years of experience delivering impactful campaigns and high-quality visual content across diverse industries in the Gulf region. Expertise in SEO, social media marketing, paid advertising (Google & Meta), and creative direction. Proven track record of boosting brand visibility, engagement, and lead generation through data-driven marketing strategies."
 };
 
