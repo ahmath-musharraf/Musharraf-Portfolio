@@ -148,7 +148,7 @@ const Hero: React.FC = () => {
                 Let's Collaborate
               </a>
               <a 
-                href="https://github.com/ahmath-musharraf/Musharraf-Portfolio/blob/main/Musharraf_CV_UAE_New.pdf"
+                href="Musharraf_CV_UAE_New.pdf"
                 download="Ahmath_Musharraf_CV.pdf"
                 className="px-8 py-4 bg-slate-800 text-white border border-slate-700 rounded-full font-medium hover:bg-slate-700 hover:border-slate-600 transition-all flex items-center gap-2 shadow-lg hover:shadow-xl hover:-translate-y-1 group"
               >
