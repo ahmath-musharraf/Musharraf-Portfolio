@@ -153,7 +153,7 @@ const Hero: React.FC = () => {
               </a>
               <a 
                 href={PERSONAL_INFO.resume}
-                download={PERSONAL_INFO.resume.startsWith('http') ? undefined : "Ahmath_Musharraf_CV.pdf"}
+                download={PERSONAL_INFO.resume.startsWith('http') ? undefined : PERSONAL_INFO.resume.split('/').pop()}
                 target={PERSONAL_INFO.resume.startsWith('http') ? "_blank" : undefined}
                 rel={PERSONAL_INFO.resume.startsWith('http') ? "noopener noreferrer" : undefined}
                 className="px-8 py-4 bg-slate-800 text-white border border-slate-700 rounded-full font-medium hover:bg-slate-700 hover:border-slate-600 transition-all flex items-center gap-2 shadow-lg hover:shadow-xl hover:-translate-y-1 group"
