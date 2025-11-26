@@ -206,7 +206,7 @@ const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
             >
                {/* Using a placeholder since we don't have the user's actual image file hosted */}
                <img 
-                src="https://picsum.photos/800/800?grayscale" 
+                src="https://raw.githubusercontent.com/ahmath-musharraf/Musharraf-Portfolio/refs/heads/main/MusharrafImage.jpg" 
                 alt="Ahmath Musharraf" 
                 className="w-full h-full object-cover opacity-90 group-hover:scale-110 group-hover:opacity-100 transition-all duration-700"
               />
