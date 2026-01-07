@@ -225,8 +225,7 @@ export const VISUAL_WORKS: VisualWork[] = [
     id: "v3", 
     title: "Modern Architectural Stills", 
     category: "Photography", 
-    imageUrl: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800&auto=format&fit=crop",
-    href="https://behance.net/ahmathmusharraf"
+    imageUrl: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800&auto=format&fit=crop"
   },
 ];
 
