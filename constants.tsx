@@ -144,24 +144,44 @@ export const EDUCATION: Education[] = [
 
 export const SKILL_CATEGORIES: SkillCategory[] = [
   {
-    name: "Visual Engineering",
-    icon: Focus,
-    skills: ["4K Cinematography", "DaVinci Resolve Studio", "Adobe Premiere Pro", "After Effects", "FPV Drone Ops", "Color Science"]
+    name: "Luxury Real Estate",
+    icon: Building2,
+    skills: ["Property Cinematography", "Matterport 3D Tours", "FPV Drone Ops", "Twilight Photography", "Architectural Lighting"]
   },
   {
-    name: "Strategic Branding",
+    name: "Automotive Creative",
     icon: Car,
-    skills: ["Brand Architecture", "Luxury Market Strategy", "Performance Marketing", "Content Funnels", "Conversion Design"]
+    skills: ["Car Cinematography", "Body-Kit Showcases", "Studio Stills", "DaVinci Color Science", "Social Trend Integration"]
   },
   {
-    name: "Full-Stack Development",
+    name: "Branding & Strategy",
+    icon: Trophy,
+    skills: ["Visual Brand Identity", "Market Positioning", "Campaign Direction", "Brand Guidelines", "Storytelling Frameworks"]
+  },
+  {
+    name: "Graphic Design",
+    icon: PenTool,
+    skills: ["Logo Architecture", "Adobe Creative Suite", "Visual Layout Design", "Print & Digital Media", "Color Theory"]
+  },
+  {
+    name: "Digital Marketing",
+    icon: Megaphone,
+    skills: ["Social Media Marketing", "SEO & Growth Hacking", "Meta & Google Ads", "Viral Content Strategy", "Analytics & Conversion"]
+  },
+  {
+    name: "Management & Leadership",
+    icon: Briefcase,
+    skills: ["Creative Team Leadership", "Project Management", "Stakeholder Relations", "Workflow Optimization", "Brand Architecture"]
+  },
+  {
+    name: "Academic & Mentorship",
+    icon: GraduationCap,
+    skills: ["Technical Lecturing", "Workshop Content Design", "Student Counselling", "Curriculum Development", "Career Mentorship"]
+  },
+  {
+    name: "Web Engineering",
     icon: Code,
-    skills: ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "Headless CMS", "SEO Architecture", "Core Web Vitals"]
-  },
-  {
-    name: "Design Systems",
-    icon: Workflow,
-    skills: ["UI/UX Design", "Figma", "Wireframing", "Interaction Design", "Responsive Layouts", "Accessibility (A11y)"]
+    skills: ["React / Next.js", "UI/UX Design Systems", "SEO Optimization", "Performance Architecture", "E-commerce UI"]
   }
 ];
 
