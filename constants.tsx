@@ -198,7 +198,13 @@ export const VISUAL_WORKS: VisualWork[] = [
     imageUrl: "https://images.unsplash.com/photo-1542281286-9e0a16bb7366?q=80&w=800&auto=format&fit=crop",
     videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ", 
     aspectRatio: '9:16'
-  }
+  },
+  { 
+    id: "v3", 
+    title: "Modern Architectural Stills", 
+    category: "Photography", 
+    imageUrl: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800&auto=format&fit=crop"
+  },
 ];
 
 export const LANGUAGES = ["English (Professional)", "Tamil (Native)", "Sinhala (Native)", "Malayalam (Conversational)"];
@@ -217,5 +223,19 @@ export const TESTIMONIALS: Testimonial[] = [
     role: "Senior Director",
     company: "Al Khateeb Global",
     quote: "Ahmath combines a rare cinematic eye with technical rigor. His ability to modernize a brand's visual language is unmatched in our sector."
-  }
+  },
+  {
+    id: "2",
+    name: "Visual Lead",
+    role: "Senior Director",
+    company: "Al Khateeb Global",
+    quote: "Ahmath combines a rare cinematic eye with technical rigor. His ability to modernize a brand's visual language is unmatched in our sector."
+  },
+  {
+    id: "3",
+    name: "Visual Lead",
+    role: "Senior Director",
+    company: "Al Khateeb Global",
+    quote: "Ahmath combines a rare cinematic eye with technical rigor. His ability to modernize a brand's visual language is unmatched in our sector."
+  },
 ];
