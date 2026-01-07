@@ -48,7 +48,7 @@ export const PERSONAL_INFO = {
   
   summary: "Results-driven Multimedia Architect with over 5 years of international experience across the UAE and GCC markets. Expert in bridging high-end cinematic production with technical web engineering to drive measurable business growth. Proven track record in scaling luxury automotive brands and real estate portfolios through data-backed visual storytelling and conversion-optimized digital ecosystems.",
   
-  profileImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop" 
+  profileImage: "https://raw.githubusercontent.com/ahmath-musharraf/Musharraf-Portfolio/refs/heads/main/Musharraf.png" 
 };
 
 export const SOCIAL_LINKS: SocialLink[] = [
