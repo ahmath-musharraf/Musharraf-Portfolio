@@ -65,7 +65,7 @@ export const EXPERIENCES: Experience[] = [
     role: "Visual Lead & Brand Architect",
     company: "Al Khateeb Global General Trading LLC",
     location: "Dubai, UAE",
-    period: "Oct 2024 - Present",
+    period: "Oct 2025 - Present",
     website: "https://alkhateeb.ae/",
     description: [
       "Strategized and executed 360-degree visual identity for the GCC’s leading automotive accessories group, managing a multi-million AED brand portfolio.",
@@ -94,6 +94,7 @@ export const EXPERIENCES: Experience[] = [
     company: "British College of Applied Studies (BCAS)",
     location: "Colombo, Sri Lanka",
     period: "Mar 2024 - Aug 2025",
+    website: "https://bcas.lk/",
     description: [
       "Instructed Level 5 Higher National Diploma (HND) modules in User Experience (UX) and Professional Design Workflows.",
       "Mentored 200+ students in mastering industry-standard tools including DaVinci Resolve, Adobe Creative Cloud, and React.js.",
@@ -118,6 +119,7 @@ export const EXPERIENCES: Experience[] = [
     company: "Dr. Jameel Memorial Hospital",
     location: "Colombo, Sri Lanka",
     period: "Oct 2020 - Dec 2022",
+    website: "https://jameelhospital.lk/",
     description: [
       "Spearheaded digital transformation of legacy healthcare branding, increasing online patient inquiries by 50%.",
       "Produced health-educational video content that amassed over 500k organic views and enhanced community trust."
@@ -224,6 +226,7 @@ export const VISUAL_WORKS: VisualWork[] = [
     title: "Modern Architectural Stills", 
     category: "Photography", 
     imageUrl: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800&auto=format&fit=crop"
+    imageUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ", 
   },
 ];
 
