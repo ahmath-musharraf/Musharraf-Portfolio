@@ -166,7 +166,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
   },
   {
     name: "Photography & Videography",
-    icon: Camera,
+    icon: PenTool,
     skills: ["Commercial Photography, Event Coverage, Product Shoots, Cinematic Video Production, Editing & Color Grading"]
   },
   {
@@ -181,7 +181,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
   },
   {
     name: "AI & Automation",
-    icon: AI,
+    icon: PenTool,
     skills: ["AI Content Generation, Prompt Engineering, Marketing Automation, Chatbots, AI Image & Video Tools, Workflow Optimization"]
   },
   {
