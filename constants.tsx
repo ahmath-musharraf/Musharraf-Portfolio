@@ -62,67 +62,61 @@ export const SOCIAL_LINKS: SocialLink[] = [
 export const EXPERIENCES: Experience[] = [
   {
     id: "1",
-    role: "Visual Lead & Brand Architect",
+    role: "Photographer, Videographer cum Graphic Designer",
     company: "Al Khateeb Global General Trading LLC",
     location: "Dubai, UAE",
     period: "Oct 2025 - Present",
     website: "https://alkhateeb.ae/",
     description: [
-      "Strategized and executed 360-degree visual identity for the GCC’s leading automotive accessories group, managing a multi-million AED brand portfolio.",
-      "Produced cinematic 4K video campaigns for Land Cruiser 300 and Lexus LX600 lineages, achieving a 30% increase in social media engagement.",
-      "Architected conversion-focused UI/UX frameworks for corporate digital platforms, reducing bounce rates by 15% through optimized user journeys.",
-      "Managed end-to-end production pipelines including high-bitrate color grading, lighting design, and technical asset management."
+      "Produced high-quality photography and videography for marketing and product campaigns, increasing content engagement by 40%+ across digital platforms.",
+      "Led end-to-end content production (planning, shooting, editing), reducing turnaround time by 30% while maintaining premium visual standards.",
+      "Designed creative assets for social media and promotions, contributing to a 25%+ growth in audience reach and brand visibility.",
+      "Collaborated with marketing and sales teams to deliver targeted visual campaigns, supporting increased lead generation and customer conversions.",
+      "Managed and optimized digital media library and workflows, improving content accessibility and team efficiency by 20%."
     ]
   },
   {
     id: "2",
-    role: "Senior Digital Strategist",
+    role: "Digital Marketing Specialist",
     company: "British College of Applied Studies (BCAS)",
     location: "Colombo, Sri Lanka",
     period: "Jan 2023 - Aug 2025",
     website: "https://bcas.lk/",
     description: [
-      "Engineered an integrated content-marketing ecosystem that increased annual student enrollment by 40% via multi-channel digital funnels.",
-      "Optimized web performance and SEO architecture, improving organic search visibility by 25% for high-intent academic keywords.",
-      "Administered a $100k+ annual advertising budget across Meta, Google, and TikTok with an average ROAS of 4.5x.",
-      "Collaborated with cross-functional teams to align regional brand messaging with international quality standards."
+      "Executed multi-channel digital marketing campaigns (Meta, Google Ads, email), increasing student inquiries and qualified leads by 35%+.",
+      "Improved SEO performance, boosting organic website traffic by 40% and ranking key academic programs on the first page of search results.",
+      "Developed and managed targeted content strategies, increasing social media engagement by 50%+ and growing follower base significantly.",
+      "Analyzed campaign performance and optimized strategies, improving conversion rates by 25% and maximizing marketing ROI.",
+      "Collaborated with academic and admissions teams on recruitment campaigns, contributing to a 20%+ increase in student enrollments."
     ]
   },
   {
     id: "3",
-    role: "Lecturer - Interactive Multimedia & UX",
+    role: "Visiting Lecturer - IT",
     company: "British College of Applied Studies (BCAS)",
     location: "Colombo, Sri Lanka",
     period: "Mar 2024 - Aug 2025",
     website: "https://bcas.lk/",
     description: [
-      "Instructed Level 5 Higher National Diploma (HND) modules in User Experience (UX) and Professional Design Workflows.",
-      "Mentored 200+ students in mastering industry-standard tools including DaVinci Resolve, Adobe Creative Cloud, and React.js.",
-      "Designed curriculum focused on technical proficiency and commercial marketability in the global creative economy."
+      "Delivered IT and Multimedia lectures to undergraduate students, achieving 90%+ student satisfaction and consistently strong academic outcomes.",
+      "Designed and updated curriculum aligned with industry standards, improving student skill readiness and practical competencies.",
+      "Supervised student projects and assessments, contributing to 95%+ pass rates and enhanced project quality.",
+      "Mentored students in multimedia tools and technologies, increasing employability and successful internship/job placements."
     ]
   },
   {
     id: "4",
-    role: "Creative Director",
-    company: "Studio Routes",
-    location: "Sri Lanka / UAE",
-    period: "Feb 2023 - Aug 2025",
-    website: "https://studioroutes.vercel.app/",
-    description: [
-      "Directed cinematic cinematography for ultra-luxury real estate listings, facilitating property sales totaling over $5M.",
-      "Developed a proprietary 'Social-First' visual framework for real estate agents, resulting in 1M+ organic views on vertical platforms."
-    ]
-  },
-  {
-    id: "5",
-    role: "Multimedia Marketing Specialist",
+    role: "Social Media Executive & Brand Lead",
     company: "Dr. Jameel Memorial Hospital",
     location: "Colombo, Sri Lanka",
     period: "Oct 2020 - Dec 2022",
     website: "https://jameelhospital.lk/",
     description: [
-      "Spearheaded digital transformation of legacy healthcare branding, increasing online patient inquiries by 50%.",
-      "Produced health-educational video content that amassed over 500k organic views and enhanced community trust."
+      "Led social media strategy and brand positioning, increasing online engagement by 60%+ and strengthening brand awareness across platforms.",
+      "Managed and executed digital campaigns (Facebook, Instagram, Google), driving 30%+ growth in patient inquiries and appointments.",
+      "Developed high-quality healthcare content and campaigns, improving audience reach and trust in medical services.",
+      "Analyzed performance metrics and optimized campaigns, improving conversion rates by 25%+ and maximizing ROI.",
+      "Coordinated with medical and administrative teams to promote services and health campaigns, contributing to increased patient acquisition and retention."
     ]
   }
 ];
@@ -146,45 +140,55 @@ export const EDUCATION: Education[] = [
 
 export const SKILL_CATEGORIES: SkillCategory[] = [
   {
-    name: "Luxury Real Estate",
+    name: "Real Estate Media",
     icon: Building2,
-    skills: ["Property Cinematography", "Matterport 3D Tours", "FPV Drone Ops", "Twilight Photography", "Architectural Lighting"]
-  },
-  {
-    name: "Automotive Creative",
-    icon: Car,
-    skills: ["Car Cinematography", "Body-Kit Showcases", "Studio Stills", "DaVinci Color Science", "Social Trend Integration"]
+    skills: ["Property Photography, Real Estate Videography, Virtual Tours, Architectural & Interior Photography"]
   },
   {
     name: "Branding & Strategy",
     icon: Trophy,
-    skills: ["Visual Brand Identity", "Market Positioning", "Campaign Direction", "Brand Guidelines", "Storytelling Frameworks"]
-  },
-  {
-    name: "Graphic Design",
-    icon: PenTool,
-    skills: ["Logo Architecture", "Adobe Creative Suite", "Visual Layout Design", "Print & Digital Media", "Color Theory"]
+    skills: ["Brand Identity Development, Market Positioning, Campaign Strategy, Brand Guidelines, Storytelling Frameworks"]
   },
   {
     name: "Digital Marketing",
     icon: Megaphone,
-    skills: ["Social Media Marketing", "SEO & Growth Hacking", "Meta & Google Ads", "Viral Content Strategy", "Analytics & Conversion"]
+    skills: ["Social Media Marketing, SEO & Growth Strategy, Meta & Google Ads, Analytics & Conversion Optimization, Viral Content Strategy"]
+  },
+   {
+    name: "Content Creation",
+    icon: Megaphone,
+    skills: ["Content Strategy, Short-form & Long-form Video, Viral Content Planning, Copywriting, Social Media Content Production"]
   },
   {
-    name: "Management & Leadership",
-    icon: Briefcase,
-    skills: ["Creative Team Leadership", "Project Management", "Stakeholder Relations", "Workflow Optimization", "Brand Architecture"]
+    name: "Graphic Design",
+    icon: PenTool,
+    skills: ["Adobe Creative Suite, Visual Design, Social Media Creatives, Print & Digital Media, Typography & Color Theory"]
+  },
+  {
+    name: "Photography & Videography",
+    icon: Camera,
+    skills: ["Commercial Photography, Event Coverage, Product Shoots, Cinematic Video Production, Editing & Color Grading"]
   },
   {
     name: "Academic & Mentorship",
     icon: GraduationCap,
-    skills: ["Technical Lecturing", "Workshop Content Design", "Student Counselling", "Curriculum Development", "Career Mentorship"]
+    skills: ["IT Lecturing, Workshop Facilitation, Student Mentoring, Curriculum Support, Technical Training"]
   },
   {
-    name: "Web Engineering",
+    name: "Web Development",
     icon: Code,
-    skills: ["React / Next.js", "UI/UX Design Systems", "SEO Optimization", "Performance Architecture", "E-commerce UI"]
-  }
+    skills: ["WordPress Development, HTML / CSS / JavaScript, UI/UX Design, SEO Optimization, E-commerce Development"]
+  },
+  {
+    name: "AI & Automation",
+    icon: AI,
+    skills: ["AI Content Generation, Prompt Engineering, Marketing Automation, Chatbots, AI Image & Video Tools, Workflow Optimization"]
+  },
+  {
+    name: "Management & Leadership",
+    icon: Briefcase,
+    skills: ["Project Management, Team Coordination, Creative Direction, Workflow Optimization, Client Communication"]
+  },
 ];
 
 export const SOFTWARE_PROJECTS: Project[] = [
