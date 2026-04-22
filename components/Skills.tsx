@@ -31,56 +31,43 @@ const Skills: React.FC = () => {
           </p>
         </motion.div>
 
-        {/* Dynamic Grid for Skill Cards - Configured for 4 columns on XL */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 mb-20">
+        {/* Technical Mastery Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-16">
           {SKILL_CATEGORIES.map((category, idx) => (
             <motion.div
               key={category.name}
               {...({
-                initial: { opacity: 0, y: 20 },
+                initial: { opacity: 0, y: 30 },
                 whileInView: { opacity: 1, y: 0 },
                 viewport: { once: true },
-                transition: { delay: idx * 0.05 }
+                transition: { delay: idx * 0.05, duration: 0.6 }
               } as any)}
-              className="bg-[#0c111d]/60 backdrop-blur-sm p-6 rounded-3xl border border-white/5 hover:border-indigo-500/20 transition-all duration-300 group relative overflow-hidden flex flex-col shadow-xl"
+              className="group"
             >
-              <div className="flex items-start justify-between mb-8">
-                <div className="w-11 h-11 bg-slate-800/40 rounded-xl flex items-center justify-center border border-white/5 group-hover:bg-indigo-500/20 transition-all duration-500">
-                  <category.icon className="text-indigo-400 group-hover:text-indigo-300 transition-colors" size={20} />
+              <div className="flex items-center gap-4 mb-6 relative">
+                <div className="absolute -left-4 top-1/2 -translate-y-1/2 w-1 h-8 bg-indigo-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                <div className="w-10 h-10 rounded-xl bg-slate-900 border border-white/5 flex items-center justify-center text-indigo-400 group-hover:scale-110 transition-transform duration-500 shadow-xl">
+                  <category.icon size={20} />
                 </div>
-                <div className="text-right">
-                  <span className="text-slate-500 font-mono text-[8px] tracking-[0.1em] uppercase font-black block mb-0.5 opacity-60">Expertise Area</span>
-                  <h3 className="text-lg font-bold text-white tracking-tight group-hover:text-indigo-200 transition-colors leading-tight">{category.name}</h3>
-                </div>
+                <h3 className="text-lg font-black text-white uppercase tracking-[0.1em]">{category.name}</h3>
               </div>
 
-              <div className="flex flex-col gap-5 mt-auto">
-                {category.skills.map((skill, sIdx) => {
-                  const percentage = 98 - (idx * 2) - (sIdx * 4);
-                  return (
-                    <div key={skill} className="space-y-2">
-                      <div className="flex justify-between items-center">
-                        <span className="text-slate-400 text-[13px] font-medium tracking-tight group-hover:text-slate-200 transition-colors">{skill}</span>
-                      </div>
-                      <div className="h-[1.5px] w-full bg-slate-800/50 rounded-full overflow-hidden">
-                        <motion.div
-                          initial={{ width: 0 }}
-                          whileInView={{ width: `${percentage}%` }}
-                          viewport={{ once: true }}
-                          transition={{ duration: 1, ease: "easeOut", delay: 0.2 + (sIdx * 0.05) }}
-                          className="h-full bg-indigo-400 shadow-[0_0_8px_rgba(129,140,248,0.3)] rounded-full"
-                        />
-                      </div>
-                    </div>
-                  );
-                })}
+              <div className="space-y-3">
+                {category.skills.map((skill, sIdx) => (
+                  <div key={skill} className="flex items-start gap-3 group/skill">
+                    <div className="w-1.5 h-1.5 rounded-full bg-slate-800 mt-1.5 group-hover/skill:bg-indigo-500 transition-colors"></div>
+                    <span className="text-slate-400 text-xs font-bold uppercase tracking-widest leading-relaxed group-hover/skill:text-slate-200 transition-colors">
+                      {skill}
+                    </span>
+                  </div>
+                ))}
               </div>
             </motion.div>
           ))}
         </div>
 
         {/* Credentials & Languages - Simplified Layout */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 mt-32">
           <motion.div
             {...({
                 initial: { opacity: 0, y: 20 },
