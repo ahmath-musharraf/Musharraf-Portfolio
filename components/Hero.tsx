@@ -86,25 +86,25 @@ const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
 
       <div className="container mx-auto px-6 relative z-10 flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-20">
         
-        <div className="flex-1 text-center lg:text-left">
+        <div className="flex-1 text-center lg:text-left pt-10 sm:pt-0">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center gap-2 py-1 px-4 rounded-full bg-white/5 border border-white/10 text-amber-400 text-sm font-medium mb-6 backdrop-blur-sm">
-              <Sparkles size={14} />
-              <span>Premium Multimedia Specialist in Dubai</span>
+            <div className="inline-flex items-center gap-2 py-1 px-4 rounded-full bg-white/5 border border-white/10 text-amber-400 text-[10px] sm:text-sm font-bold mb-6 backdrop-blur-sm uppercase tracking-widest">
+              <Sparkles size={12} />
+              <span>Premium Multimedia in Dubai</span>
             </div>
             
-            <h1 className="text-5xl lg:text-7xl font-bold mb-6 tracking-tight text-white leading-tight">
+            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-black mb-4 tracking-tighter text-white leading-[1.1]">
               I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-amber-200 to-indigo-400 bg-300% animate-gradient">{PERSONAL_INFO.name}</span>
             </h1>
 
-            <div className="h-12 lg:h-16 mb-6 overflow-hidden">
+            <div className="h-10 sm:h-12 lg:h-16 mb-4 overflow-hidden">
                <motion.p 
                 key={roleIndex}
-                className="text-2xl lg:text-3xl text-slate-300 font-light"
+                className="text-lg sm:text-2xl lg:text-3xl text-slate-300 font-light"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -20 }}
@@ -118,10 +118,10 @@ const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
               Architecting cinematic property narratives, automotive visual systems, and data-driven marketing strategies for the Dubai luxury market.
             </p>
 
-            <div className="flex flex-wrap gap-4 justify-center lg:justify-start mb-12">
+            <div className="flex flex-col sm:flex-row flex-wrap gap-4 justify-center lg:justify-start mb-12">
               <a 
                 href="#contact" 
-                className="px-8 py-4 bg-indigo-500 text-white rounded-full font-bold hover:bg-indigo-600 transition-all shadow-lg shadow-indigo-500/25 hover:scale-105"
+                className="w-full sm:w-auto px-8 py-4 bg-indigo-500 text-white rounded-2xl font-bold hover:bg-indigo-600 transition-all shadow-lg shadow-indigo-500/25 hover:scale-105 text-center"
               >
                 Book a Consultation
               </a>
@@ -129,7 +129,7 @@ const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
               {onOpenResume && (
                   <button 
                     onClick={onOpenResume}
-                    className="px-8 py-4 bg-slate-800 text-white border border-slate-700 rounded-full font-medium hover:bg-slate-700 transition-all flex items-center gap-2 shadow-lg group"
+                    className="w-full sm:w-auto px-8 py-4 bg-slate-800 text-white border border-slate-700 rounded-2xl font-bold hover:bg-slate-700 transition-all flex items-center justify-center gap-2 shadow-lg group"
                   >
                     <FileText size={20} className="group-hover:text-amber-400 transition-colors" />
                     <span>View Resume</span>
