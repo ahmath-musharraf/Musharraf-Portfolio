@@ -29,11 +29,11 @@ import {
 export const PERSONAL_INFO = {
   name: "Ahmath Musharraf",
   roles: [
-    "Multimedia Architect",
-    "Automotive Brand Lead",
-    "Real Estate Cinematographer",
-    "Web Engineering Specialist",
-    "Digital Strategy Mentor"
+    "Photographer & Videographer",
+    "Digital Marketing Specialist",
+    "IT & Multimedia Lecturer",
+    "Brand & Social Media Lead",
+    "Graphic Design Expert"
   ],
   location: "Dubai, United Arab Emirates",
   nationality: "Sri Lankan",
@@ -43,7 +43,7 @@ export const PERSONAL_INFO = {
   linkedin: "https://linkedin.com/in/ahmathmusharraf",
   portfolio: "ahmathmusharraf.vercel.app",
   
-  summary: "Results-driven Multimedia Architect with over 5 years of international experience across the UAE and GCC markets. Expert in bridging high-end cinematic production with technical web engineering to drive measurable business growth. Proven track record in scaling luxury automotive brands, healthcare groups, and real estate portfolios through data-backed visual storytelling and conversion-optimized digital ecosystems.",
+  summary: "Results-driven Multimedia Architect with over 5 years of international experience across the UAE and GCC markets. Expert in bridging high-bitrate cinematic production with technical web engineering and strategic digital marketing. Proven track record in scaling brands across automotive, healthcare, and academic sectors through data-backed visual storytelling and technical innovation.",
   
   profileImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop",
 
