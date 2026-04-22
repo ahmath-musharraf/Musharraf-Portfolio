@@ -32,7 +32,7 @@ const Skills: React.FC = () => {
         </motion.div>
 
         {/* Technical Mastery Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-10 sm:gap-y-16 px-2 sm:px-0">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-8 gap-y-10 sm:gap-y-16 px-2 sm:px-0">
           {SKILL_CATEGORIES.map((category, idx) => (
             <motion.div
               key={category.name}
