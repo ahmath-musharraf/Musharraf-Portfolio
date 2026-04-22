@@ -39,7 +39,7 @@ const ExperienceCard: React.FC<{ experience: typeof EXPERIENCES[0], index: numbe
         viewport: { once: true, margin: "-100px" },
         transition: { duration: 0.5, delay: index * 0.1 }
       } as any)}
-      className="relative pl-12 pb-16 last:pb-0"
+      className="relative pl-8 md:pl-12 pb-16 last:pb-0"
     >
       {/* Timeline Node & Line */}
       <div className="absolute left-0 top-0 bottom-0 w-px bg-slate-800">
@@ -56,45 +56,45 @@ const ExperienceCard: React.FC<{ experience: typeof EXPERIENCES[0], index: numbe
         </div>
 
         {/* Content Card */}
-        <div className="flex-1 bg-white/[0.02] border border-white/5 rounded-3xl p-6 md:p-8 hover:bg-white/[0.04] transition-colors group">
-          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
+        <div className="flex-1 bg-white/[0.02] border border-white/5 rounded-2xl sm:rounded-3xl p-5 sm:p-8 hover:bg-white/[0.04] transition-colors group">
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-3 sm:gap-4 mb-4 sm:mb-6">
             <div>
-              <div className="flex items-center gap-3 mb-2">
-                <div className="p-2 bg-primary/10 rounded-lg text-primary">
-                  <Icon size={18} />
+              <div className="flex items-center gap-3 mb-1.5 sm:mb-2">
+                <div className="p-1.5 sm:p-2 bg-primary/10 rounded-lg text-primary">
+                  <Icon size={16} />
                 </div>
-                <h3 className="text-xl md:text-2xl font-bold text-white tracking-tight">{experience.role}</h3>
+                <h3 className="text-lg sm:text-2xl font-bold text-white tracking-tight">{experience.role}</h3>
               </div>
-              <div className="flex flex-wrap items-center gap-3 text-slate-400">
+              <div className="flex flex-wrap items-center gap-2 sm:gap-3 text-slate-400">
                 {experience.website ? (
                   <a 
                     href={experience.website} 
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="font-semibold text-slate-200 hover:text-primary transition-colors flex items-center gap-1.5 underline decoration-slate-700 underline-offset-4"
+                    className="text-[12px] sm:text-sm font-semibold text-slate-200 hover:text-primary transition-colors flex items-center gap-1.5 underline decoration-slate-700 underline-offset-4"
                   >
-                    {experience.company} <ExternalLink size={14} />
+                    {experience.company} <ExternalLink size={12} />
                   </a>
                 ) : (
-                  <span className="font-semibold text-slate-200">{experience.company}</span>
+                  <span className="text-[12px] sm:text-sm font-semibold text-slate-200">{experience.company}</span>
                 )}
                 <span className="w-1 h-1 rounded-full bg-slate-700" />
-                <span className="text-sm flex items-center gap-1.5"><MapPin size={14} /> {experience.location}</span>
+                <span className="text-[11px] sm:text-sm flex items-center gap-1.5"><MapPin size={12} /> {experience.location}</span>
               </div>
             </div>
             
             {index === 0 && (
-              <div className="flex items-center gap-2 px-3 py-1 bg-green-500/10 border border-green-500/20 text-green-400 text-[10px] font-bold uppercase tracking-widest rounded-full animate-pulse">
-                Current Role
+              <div className="flex items-center gap-2 px-3 py-1 bg-green-500/10 border border-green-500/20 text-[9px] sm:text-[10px] font-black uppercase tracking-widest rounded-full animate-pulse self-start md:self-center">
+                Current
               </div>
             )}
           </div>
 
-          <div className="space-y-3 mb-8">
+          <div className="space-y-2 sm:space-y-3 mb-6 sm:mb-8">
             {experience.description.map((point, idx) => (
-              <div key={idx} className="flex items-start gap-3">
-                <ChevronRight size={16} className="mt-1 text-primary opacity-50 flex-shrink-0" />
-                <p className="text-slate-400 leading-relaxed font-light">{point}</p>
+              <div key={idx} className="flex items-start gap-2 sm:gap-3">
+                <ChevronRight size={14} className="mt-1 text-primary opacity-50 flex-shrink-0" />
+                <p className="text-slate-400 text-[12px] sm:text-sm leading-relaxed font-light">{point}</p>
               </div>
             ))}
           </div>
