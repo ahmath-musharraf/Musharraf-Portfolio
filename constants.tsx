@@ -251,7 +251,7 @@ export const VISUAL_WORKS: VisualWork[] = [
     title: "Jetour Upgrades New Style", 
     category: "Videography", 
     imageUrl: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=800&auto=format&fit=crop",
-    videoUrl: "https://youtu.be/ldzhMWha3bk?si=1PB5ROjHN2ktHs7_", 
+    videoUrl: "https://www.youtube.com/embed/ldzhMWha3bk?si=yXLYVvnl2LwWmDvx", 
     aspectRatio: '16:9'
   },
   { 
